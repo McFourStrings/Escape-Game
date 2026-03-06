@@ -38,7 +38,8 @@ document.addEventListener("DOMContentLoaded", function () {
     valider2.addEventListener("click", function () {
         if (reponse2.value.toLowerCase() === "Des souvenirs" || reponse2.value.toLowerCase() === "souvenirs" ||
             reponse2.value.toLowerCase() === "des souvenir" || reponse2.value.toLowerCase() === "souvenir" ||
-            reponse2.value.toLowerCase() === "les souvenirs") {
+            reponse2.value.toLowerCase() === "les souvenirs" || reponse2.value.toLowerCase() === "souvenir"||
+           reponse2.value.toLowerCase() === "des souvenir"||reponse2.value.toLowerCase() === "les souvenir") {
             enigme2.style.display = "none";
             bonnereponse.style.display = "block";
             enigme3.style.display = "flex";
@@ -94,3 +95,4 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 });
+
