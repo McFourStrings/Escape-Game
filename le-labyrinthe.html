@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="labyrinthe.css">
+
+    <title>Le Labyrinthe</title>
+</head>
+<body>
+<div id="intro">
+   <p> Une fois la porte passée, vous vous trouvez dans un étroit et sinueux couloir.</p>
+ <p>Après quelques pas, vous apercevez un plan sur le mur. Vous êtes dans un labyrinthe!</p>
+
+<p>Commandes:</p>
+<ul>
+   <li> Ecrivez la direction souhaitée en toute lettre (haut, bas, gauche ou droite) </li>
+<li>Décrivez tout votre chemin en une seule entrée, en mettant un espace entre chaque direction</li>
+ <li>Basez vous sur le plan, pas sur votre positionnement physique dans le labyrinthe.
+     Par exemple, vis à vis de la position du début, pour allez tout droit, il faut taper "droite"</li>
+ <li>Considérez que vous faite un arrêt à chaque intersection. Par exemple, dans un couloir montant, 
+    pour prendre la deuxième sortie de droite, cela donnera
+     "haut [considérez l'arrêt à la première sortie] haut [reprise jusqu'à la deuxième sortie] droite"</li>
+</ul>
+</div>
+ <img id="labyrinthe" src="labyrinthe.jpg" alt="labyrinthe">
+
+<textarea id="reponse"></textarea><button id="valider">Valider</button>
+
+<!-- Solution :
+"Droite" + "droite"+ "haut" + "gauche" + "haut" + "gauche" + "haut" + "droite" + "droite" + "bas" + "bas" +
+ "droite" + "bas" + "bas" + "droite" + "droite" + "droite" +
+ "haut" + "gauche" + "haut" + "droite" + "bas" + "gauche" + "bas" + "gauche" + "bas" + "bas" + "droite" + "droite" + 
+ "haut"+ "droite" + "haut" + "gauche" + "haut" + "haut"+ "haut"+ "gauche"+ "haut" +"droite"  -->
+
+ <!-- droite droite haut gauche haut gauche haut droite droite bas droite bas droite droite droite haut gauche haut droite bas gauche bas gauche bas bas droite droite haut droite droite haut gauche haut haut haut gauche haut droite -->
+
+<div id="perdu">
+Vous vous perdez dans le labyrinthe et retournez à votre point de départ 
+</div>
+<!-- Rechargement du formulaire -->
+ <div id="resolution">
+    <p>Vous parvenez à sortir du Labyrinthe!</p>
+    <p>Cliquez ici pour continuer.</p>
+ </div>
+    
+
+
+    <script src="labyrinthe.js"></script>
+</body>
+</html>

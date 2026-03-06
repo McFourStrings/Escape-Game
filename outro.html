@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/637637e33f.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Outro</title>
+</head>
+<body>
+
+    <p>Félicitations, vous avez bravé les énigmes, vous voilà libre!</p>
+
+<p>Merci d'avoir joué, et bravo d'être arrivé jusqu'au bout!</p>
+
+<p>Si ce jeu vous a plu, n'hésitez pas à le partager autour de vous via ce lien</p>
+<div class="share-box">
+  <input type="text" id="siteLink" value="index.html" readonly>
+  <button onclick="copyLink()"><i class="fa-solid fa-copy"></i></button>
+</div>
+
+
+<p>Si vous avez des idées et suggestions d'amélioration ou de nouvelles énigmes à me proposer</p>
+<p>Ou simplement si vous souhaitez voir mes autres projets, je vous invite à consulter <a href="https://mcfourstrings.github.io/portfolio-Monory-Yann/">mon Portfolio</a></p> 
+
+
+<script>
+function copyLink() {
+  const copyText = document.getElementById("siteLink");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  navigator.clipboard.writeText(copyText.value);
+
+  alert("Lien copié !");
+}
+</script>    
+</body>
+</html>

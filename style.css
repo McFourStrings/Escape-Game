@@ -1,0 +1,54 @@
+ body{
+     margin: 2%;
+     padding: 0;
+     background-color: black;    
+     display:flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column; 
+     background-image: url(brume.jpg);
+         
+ }
+
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+
+ h1 {
+    margin-top: 5%;
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+
+ }
+p{
+    color: white;
+    
+}
+
+.share-box {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+  background-color: black;
+ 
+}
+
+.share-box input {
+  padding: 8px;
+  width: 250px;
+  color: white;
+  background-color: black;
+ border:1px solid white;
+
+}
+
+.share-box button {
+  padding: 8px 12px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+

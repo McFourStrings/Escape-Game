@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cellule.css">
+    <script src="https://kit.fontawesome.com/637637e33f.js" crossorigin="anonymous"></script>
+    <title>La cellule</title>
+</head>
+<body>
+
+   <p>Vous vous réveillez dans une salle sombre et poussiéreuse.<p>
+<p>La seule source de lumière est une petite lucarne par laquelle vous arrivez à apercevoir 
+les toits de quelques maison et au loin ce qui semble être la Tour Eiffel.</p>
+
+<p>A taton, vous arrivez à une porte fermée. Aucune serrure, aucune poignée, 
+juste un pavé numérique au dessus duquel vous lisez l'inscription "Où êtes vous?"</p>
+
+<p id="ouverture">Ce code semble être le bon, la porte s'ouvre lentement,<a href="Le-couloir.html">cliquez ici pour accéder au niveau suivant</a></p>
+
+ <div id="result"></div>
+    <div class="row">
+        <div class="button buttonsNumber characters">7</div>
+        <div class="button buttonsNumber characters">8</div>
+        <div class="button buttonsNumber characters">9</div>
+        
+    </div>
+    <div class="row">
+        <div class="button buttonsNumber characters">4</div>
+        <div class="button buttonsNumber characters">5</div>
+        <div class="button buttonsNumber characters">6</div>
+  
+    </div>
+    <div class="row">
+        <div class="button buttonsNumber characters">1</div>
+        <div class="button buttonsNumber characters">2</div>
+        <div class="button buttonsNumber characters">3</div>
+       
+    </div>
+    <div class="row">
+        <div  id=Delete class="button buttonsSign characters"><i class="fa-solid fa-delete-left"></i></div>
+        <div class="button buttonsNumber characters">0</div>
+                <div id="valider" class="button buttonsSign characters"><i class="fa-solid fa-check"></i></div>
+    </div>
+</div>
+
+<!-- Solution: entrer le code postal de Paris (75000) dans l'input 
+
+Si bonne réponse, afficher "Ce code semble être le bon, la porte s'ouvre lentrment, cliquez ici pour accéder au niveau suivant"
+
+Si erreur, afficher "Rien ne se passe, essayez un autre code"
+
+Si réponse = Paris/paris/PARIS, afficher "Oui vous êtes sûrement à Paris, mais le pavé numérique devant vous ne vous permet pas d'entrer de lettres. Comment exprimer cela à l'aide de chiffres?" -->
+
+    <script src="cellule.js"></script>
+    
+</body>
+</html>
