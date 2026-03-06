@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     valider4.addEventListener("click", function () {
         if (reponse4.value.toLowerCase() === "La lettre E" || reponse4.value.toLowerCase() === "un e" ||
-            reponse4.value.toLowerCase() === "e") {
+            reponse4.value.toLowerCase() === "e"||reponse4.value.toLowerCase() ==="é"||reponse4.value.toLowerCase() === "è") {
             enigme4.style.display = "none";
             resolution.style.display = "flex";
             resolution.style.flexDirection = "column";
@@ -95,4 +95,5 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 });
+
 
