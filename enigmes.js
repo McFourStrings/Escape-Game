@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     valider1.addEventListener("click", function () {
-        if (reponse1.value.toLowerCase() === "le savoir" || reponse1.value.toLowerCase() === "savoir") {
+        if (reponse1.value.trim().toLowerCase() === "le savoir" || reponse1.value.trim().toLowerCase() === "savoir") {
             enigme1.style.display = "none";
             entree.style.display = "none";
             bonnereponse.style.display = "block";
@@ -36,10 +36,10 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     valider2.addEventListener("click", function () {
-        if (reponse2.value.toLowerCase() === "des souvenirs" || reponse2.value.toLowerCase() === "souvenirs" ||
-            reponse2.value.toLowerCase() === "des souvenir" || reponse2.value.toLowerCase() === "souvenir" ||
-            reponse2.value.toLowerCase() === "les souvenirs" || reponse2.value.toLowerCase() === "souvenir"||
-           reponse2.value.toLowerCase() === "des souvenir"||reponse2.value.toLowerCase() === "les souvenir") {
+        if (reponse2.value.trim().toLowerCase() === "des souvenirs" || reponse2.value.trim().toLowerCase() === "souvenirs" ||
+            reponse2.value.trim().toLowerCase() === "des souvenir" || reponse2.value.trim().toLowerCase() === "souvenir" ||
+            reponse2.value.trim().toLowerCase() === "les souvenirs" || reponse2.value.trim().toLowerCase() === "souvenir"||
+           reponse2.value.trim().toLowerCase() === "des souvenir"||reponse2.value.trim().toLowerCase() === "les souvenir") {
             enigme2.style.display = "none";
             bonnereponse.style.display = "block";
             enigme3.style.display = "flex";
@@ -55,12 +55,12 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     valider3.addEventListener("click", function () {
-        if (reponse3.value.toLowerCase() === "Seulement moi" || reponse3.value.toLowerCase() === " seulement toi" ||
-            reponse3.value.toLowerCase() === "moi" || reponse3.value.toLowerCase() === "toi" ||
-            reponse3.value.toLowerCase() === "une seule" || reponse3.value.toLowerCase() === "une seule personne" ||
-            reponse3.value.toLowerCase() === "une personne" || reponse3.value.toLowerCase() === "une " ||
-            reponse3.value.toLowerCase() === "un" || reponse3.value.toLowerCase() === "1" ||
-            reponse3.value.toLowerCase() === "seulement vous" || reponse3.value.toLowerCase() === "vous") {
+        if (reponse3.value.trim().toLowerCase() === "Seulement moi" || reponse3.value.trim().toLowerCase() === " seulement toi" ||
+            reponse3.value.trim().toLowerCase() === "moi" || reponse3.value.trim().toLowerCase() === "toi" ||
+            reponse3.value.trim().toLowerCase() === "une seule" || reponse3.value.trim().toLowerCase() === "une seule personne" ||
+            reponse3.value.trim().toLowerCase() === "une personne" || reponse3.value.trim().toLowerCase() === "une " ||
+            reponse3.value.trim().toLowerCase() === "un" || reponse3.value.trim().toLowerCase() === "1" ||
+            reponse3.value.trim().toLowerCase() === "seulement vous" || reponse3.value.trim().toLowerCase() === "vous") {
             enigme3.style.display = "none";
             bonnereponse.style.display = "block";
             enigme4.style.display = "flex";
@@ -75,8 +75,8 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     valider4.addEventListener("click", function () {
-        if (reponse4.value.toLowerCase() === "La lettre E" || reponse4.value.toLowerCase() === "un e" ||
-            reponse4.value.toLowerCase() === "e"||reponse4.value.toLowerCase() ==="é"||reponse4.value.toLowerCase() === "è") {
+        if (reponse4.value.trim().toLowerCase() === "La lettre E" || reponse4.value.trim().toLowerCase() === "un e" ||
+            reponse4.value.trim().toLowerCase() === "e"||reponse4.value.trim().toLowerCase() ==="é"||reponse4.value.trim().toLowerCase() === "è") {
             enigme4.style.display = "none";
             resolution.style.display = "flex";
             resolution.style.flexDirection = "column";
