@@ -62,3 +62,96 @@
      color: white;
      display: none;
  }
+
+ /* ===================== */
+/* Tablettes (max 1024px) */
+/* ===================== */
+@media screen and (max-width: 1024px) {
+
+    body{
+        margin: 4%;
+        text-align: center;
+    }
+
+    p{
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+
+    #homme{
+        width: 50%;
+    }
+
+    #enigme1,
+    #enigme2,
+    #enigme3,
+    #enigme4{
+        width: 90%;
+    }
+
+    input{
+        margin-top: 10px;
+        padding: 8px;
+        font-size: 1rem;
+    }
+
+    button{
+        margin-top: 10px;
+        padding: 8px 12px;
+        font-size: 1rem;
+    }
+}
+
+
+/* ===================== */
+/* Mobile (max 768px) */
+/* ===================== */
+@media screen and (max-width: 768px) {
+
+    body{
+        margin: 5%;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
+    #homme{
+        width: 70%;
+    }
+
+    #enigme1,
+    #enigme2,
+    #enigme3,
+    #enigme4{
+        width: 100%;
+    }
+
+    input{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    button{
+        width: 100%;
+    }
+}
+
+
+/* ===================== */
+/* Petit mobile (max 480px) */
+/* ===================== */
+@media screen and (max-width: 480px) {
+
+    p{
+        font-size: 0.95rem;
+    }
+
+    #homme{
+        width: 90%;
+    }
+
+    body{
+        margin: 6%;
+    }
+}

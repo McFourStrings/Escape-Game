@@ -86,3 +86,95 @@ button{
     color: green;
  }
 }
+
+/* ===================== */
+/* Tablettes (max 1024px) */
+/* ===================== */
+@media screen and (max-width: 1024px){
+
+    #boutons{
+        gap: 1%;
+        width: 100%;
+    }
+
+    #image1,
+    #image2,
+    #image3{
+        width: 60%;
+    }
+
+    button{
+        font-size: 0.9rem;
+        padding: 6px;
+    }
+
+    p{
+        font-size: 0.95rem;
+    }
+
+}
+
+
+/* ===================== */
+/* Mobile (max 768px) */
+/* ===================== */
+@media screen and (max-width: 768px){
+
+    #boutons{
+        flex-direction: row;
+        gap: 1%;
+        width: 100%;
+    }
+
+    #encart1,
+    #encart2,
+    #encart3{
+        width: 30%;
+    }
+
+    #image1,
+    #image2,
+    #image3{
+        width: 80%;
+    }
+
+    button{
+        font-size: 0.75rem;
+        padding: 5px;
+    }
+
+    p{
+        font-size: 0.85rem;
+        text-align: center;
+    }
+
+}
+
+
+/* ===================== */
+/* Petit mobile (max 480px) */
+/* ===================== */
+@media screen and (max-width: 480px){
+
+    #encart1,
+    #encart2,
+    #encart3{
+        width: 32%;
+    }
+
+    #image1,
+    #image2,
+    #image3{
+        width: 90%;
+    }
+
+    button{
+        font-size: 0.65rem;
+        padding: 4px;
+    }
+
+    p{
+        font-size: 0.8rem;
+    }
+
+}

@@ -42,3 +42,74 @@ a{
     font-weight: bolder;
     color: green;
 }
+
+
+/* ===================== */
+/* Tablettes */
+@media screen and (max-width: 900px){
+
+    #porte{
+        width: 60vw;
+    }
+
+    p{
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    #nombremetres{
+        font-size: 1.2em;
+        margin-bottom: 2%;
+    }
+
+}
+
+
+/* ===================== */
+/* Smartphones */
+@media screen and (max-width: 600px){
+
+    body{
+        margin: 5%;
+        text-align: center;
+    }
+
+    #porte{
+        width: 85vw;
+    }
+
+    p{
+        font-size: 1.1em;
+        line-height: 1.5;
+    }
+
+    #nombremetres{
+        font-size: 1.1em;
+        margin-bottom: 3%;
+    }
+
+    #ouverture{
+        font-size: 1.1em;
+        margin-top: 3%;
+    }
+
+}
+
+
+/* ===================== */
+/* Très petits mobiles */
+@media screen and (max-width: 400px){
+
+    #porte{
+        width: 95vw;
+    }
+
+    p{
+        font-size: 1em;
+    }
+
+    #nombremetres{
+        font-size: 1em;
+    }
+
+}

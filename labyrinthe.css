@@ -53,3 +53,102 @@ ul,
 li{
     color: white;
 }
+
+/* ===================== */
+/* Tablettes (max 1024px) */
+/* ===================== */
+@media screen and (max-width: 1024px) {
+
+    body{
+        margin: 4%;
+        text-align: center;
+    }
+
+    p, li{
+        font-size: 1.05rem;
+        line-height: 1.6;
+    }
+
+    #labyrinthe{
+        width: 60vw;
+    }
+
+    #reponse{
+        width: 70vw;
+        height: 18vh;
+        font-size: 1rem;
+    }
+
+    button{
+        margin-top: 10px;
+        padding: 8px 12px;
+        font-size: 1rem;
+    }
+
+}
+
+
+/* ===================== */
+/* Mobile (max 768px) */
+/* ===================== */
+@media screen and (max-width: 768px) {
+
+    body{
+        margin: 5%;
+    }
+
+    p, li{
+        font-size: 1rem;
+    }
+
+    ul{
+        padding-left: 20px;
+        text-align: left;
+    }
+
+    #labyrinthe{
+        width: 85vw;
+    }
+
+    #reponse{
+        width: 90vw;
+        height: 16vh;
+        font-size: 0.95rem;
+    }
+
+    button{
+        width: 90vw;
+        margin-top: 10px;
+    }
+
+}
+
+
+/* ===================== */
+/* Petit mobile (max 480px) */
+/* ===================== */
+@media screen and (max-width: 480px) {
+
+    body{
+        margin: 6%;
+    }
+
+    p, li{
+        font-size: 0.95rem;
+    }
+
+    #labyrinthe{
+        width: 95vw;
+    }
+
+    #reponse{
+        width: 95vw;
+        height: 15vh;
+    }
+
+    button{
+        width: 95vw;
+        font-size: 0.95rem;
+    }
+
+}
